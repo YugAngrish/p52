@@ -1,0 +1,49 @@
+h1{
+    color:#d99b99
+}
+h2{
+    color:#aaa
+}
+
+img{
+    border:solid;
+    
+} 
+.header{ 
+ background-color:#111004;
+ text-align: center;
+}
+.item{
+  
+background-color:#ddd679;
+width: 300px ;
+margin:10px;
+position:relative
+
+}
+.project{
+    display:flex;
+    justify-content : space-evenly;
+    flex-wrap:wrap;
+    /*margin:40px;*/
+}
+.background{
+    background-color : #111004;
+    color: #fff
+
+    
+}
+.intro{
+    background-color : #aef678 ;
+    color: #a599d9
+}
+.name {
+    position : absolute;
+    top : 22%;
+    right:55%;
+    transform:scale(2,3);
+    opacity : 0;
+}
+.name:hover {
+    opacity:1
+}
